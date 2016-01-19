@@ -1,0 +1,42 @@
+{
+    "version": "0.0.1",
+    "paths": {
+        "dev": {
+            "path": "./src/",
+            "images": "./src/img/",
+            "js": {
+                "root": "./src/js/",
+                "base": "./src/js/base/",
+                "pages": "./src/js/pages/",
+                "thirdparty": "./src/js/thirdparty/"
+            },
+            "css": {
+                "root": "./src/styles/",
+                "pages": "./src/styles/pages/",
+                "thirdparty": "./src/styles/thirdparty/"
+            },
+            "data": "./src/data/",
+            "fonts": "./src/fonts/",
+            "root": "./src/root/",
+            "views": {
+                "root": "./src/views/",
+                "pages": "./src/views/pages/"
+            }
+        },
+        "prod": {
+            "path": "./build/",
+            "images": "./build/img/",
+            "js": {
+                "root": "./build/js/",
+                "thirdparty": "./build/js/thirdparty/"
+            },
+            "css": {
+                "root": "./build/css/",
+                "thirdparty": "./build/css/thirdparty/"
+            },
+            "data": "./build/data/",
+            "fonts": "./build/fonts/",
+            "root": "./build/"
+        }
+    }
+}
