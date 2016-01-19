@@ -8,7 +8,8 @@
                 "root": "./src/js/",
                 "base": "./src/js/base/",
                 "pages": "./src/js/pages/",
-                "thirdparty": "./src/js/thirdparty/"
+                "thirdparty": "./src/js/thirdparty/",
+                "angular": "./src/js/angular/"
             },
             "css": {
                 "root": "./src/styles/",
@@ -20,7 +21,10 @@
             "root": "./src/root/",
             "views": {
                 "root": "./src/views/",
-                "pages": "./src/views/pages/"
+                "pages": "./src/views/pages/",
+                "angular": {
+                    "templates": "./src/views/templates/"
+                }
             }
         },
         "prod": {
@@ -36,7 +40,11 @@
             },
             "data": "./build/data/",
             "fonts": "./build/fonts/",
-            "root": "./build/"
+            "root": "./build/",
+            "angular": {
+                "templates": "./build/templates"
+            }
         }
-    }
+    },
+    "angular": true
 }
