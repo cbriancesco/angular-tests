@@ -20,13 +20,12 @@ prodi.ui.constants = {
 };
 
 // RUNS ALL INIT FUNCTIONS
-$(function () {
+(function() {
     var keys = Object.keys(prodi.ui);
     for(var i = 1, max = keys.length; i < max; i+=1){
-        
         // if 'autoInit' is declared on false will not load the module
         if(prodi.ui[keys[i]].autoInit || prodi.ui[keys[i]].autoInit === undefined){
             prodi.ui[keys[i]].init();
         }
     }
-});
+})();
