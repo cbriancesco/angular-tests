@@ -2,7 +2,7 @@
     "pages": [{
             "pageName": "Home Page",
             "fileName": "homepage.js",
-            "modules": []
+            "modules": ["./src/js/modules/ng-cities.js"]
         },
         {
             "pageName": "Internal Page",
