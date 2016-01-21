@@ -48,13 +48,13 @@ app.controller('secundaryController', function ($scope, cityFactory){
 
 
 app.controller('addController', function ($scope, cityFactory){
-    var city = {
-        city: $scope.newCity,
-        country: $scope.newCountry
-    };
-
     $scope.addCity = function(){
-        cityFactory.add(city);
+        var nCity = {
+            city: $scope.newCity,
+            country: $scope.newCountry
+        };
+
+        cityFactory.add(nCity);
 
         // Limpiar los inputs          
         $scope.newCity= '';
